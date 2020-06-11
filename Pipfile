@@ -4,10 +4,13 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+pylint = "*"
 
 [packages]
 python-dotenv = "*"
 psycopg2-binary = "*"
+pymongo = "*"
+dnspython = "*"
 
 [requires]
 python_version = "3.7"
